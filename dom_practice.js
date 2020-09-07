@@ -6,4 +6,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
     h2.innerText="Welcome to Edison!!!"
     const list = document.getElementsByClassName("list")
     console.log(list)
+    const listItems = document.querySelectorAll("li")
+    console.log(listItems)
+    listItems[3].innerText = "Jamboree sandwich at the Jambo-ree"
+    listItems[1].style.color = "green"
 })
