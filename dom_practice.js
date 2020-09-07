@@ -10,4 +10,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     console.log(listItems)
     listItems[3].innerText = "Jamboree sandwich at the Jambo-ree"
     listItems[1].style.color = "green"
+    const topGolf = document.createElement("img")
+    topGolf.setAttribute("src", "https://topgolf.com/assets/kobalt/TG_Edison.jpg")
+    listItems[2].appendChild(topGolf)
 })
