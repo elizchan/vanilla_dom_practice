@@ -13,4 +13,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     const topGolf = document.createElement("img")
     topGolf.setAttribute("src", "https://topgolf.com/assets/kobalt/TG_Edison.jpg")
     listItems[2].appendChild(topGolf)
+    const footer = document.querySelector("footer")
+    pRemove = footer.querySelector("p")
+    pRemove.remove()
 })
